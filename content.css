@@ -1,0 +1,98 @@
+.bottomNav{
+	position: fixed;
+	left: 0;
+	z-index: 1;
+	bottom: 0;
+	height: 35px;
+	width: 100%;
+	color: white;
+	background-color: #1b2330;
+	text-align: center;
+	
+}
+
+.bottomPage{
+	height: 0;
+	width: 100%;
+	z-index: 10;
+	background-color: white;
+	position: fixed;
+	bottom: 0;
+	transition: 0.5s;
+	padding-left: 50px;
+	padding-right: 10px;
+	
+}
+
+#goodreads-widget{
+	margin-top: 10px;
+	float: left;
+	width: 600px;
+
+}
+
+.right{
+	width: 550px;
+	float: left;
+	padding-top: 20px;
+	overflow: scroll;
+	height: 450px;
+}
+
+i {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  border-color: white;
+}
+
+.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+
+.closebtn{
+	color: #5c5c60!important;
+    text-decoration: none!important;
+	position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+li.bookInfo{
+	list-style-type: none;
+	font-family: Tahoma, Geneva, sans-serif;
+	display: block;
+	color: #81a9e8;
+}
+
+.libraryDiv{
+	width: auto;
+	height: 90px;
+	padding: 5px;
+	border-bottom: solid 1px #d7dae0;
+}
+
+.listDiv{
+	float: left;
+}
+
+img{
+	float: right;
+	
+	height: 80px;
+	width: 50px;
+}
+
+
+
+
+
+
+
+
+
+
