@@ -43,8 +43,8 @@ for(var i = 0; i < lis.length; i++){
 
 //Grabs GoodReads reviews using the GoodReads API
 function getReviews(isbn){
-	var key = 'Cglgf8yZv4ZsdTeqlCJK7g';
-	var sec = 'lZOWGB1Rih9qW9pLssxvyAifJVppow0hWiC2y6AKiU';
+	var key = '[MY_KEY]';
+	var sec = '[MY_SEC]';
 
 	var url = 'https://www.goodreads.com/book/isbn/' + isbn + '?key=' + key;
 	const proxyurl = "https://cors-anywhere.herokuapp.com/";
